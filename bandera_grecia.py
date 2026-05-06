@@ -1,4 +1,6 @@
 import pygame
+import sys
+
 
 # inicializamos los modulos de la libreria
 pygame.init()
@@ -6,12 +8,15 @@ pygame.init()
 # establecer dimensiones de la ventana (proporción sugerida para esta bandera)
 ventana = pygame.display.set_mode((450, 270))
 
+
 # establecer el titulo de la ventana
 pygame.display.set_caption("Bandera de Grecia")
 
 # definir colores
 azul = (0, 0, 255)
 blanco = (255, 255, 255)
+
+
 
 # creamos las superficies
 s1 = pygame.Surface((450, 30))
